@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Employee Payroll Form</title>
-    <link rel="stylesheet" href="../css/employee_payroll.css">
+    <link href="../css/employee_payroll.css" rel="stylesheet" >
 </head>
 
 <body>
-    <header class="header-content header">
+    <header class="header-content header">`
         <div class="logo-content">
             <img class="img" src="../assets/images/logo.png" alt="sample image">
             <div>
@@ -19,6 +19,19 @@
             </div>
         </div>
     </header>
+
+    <div class="form-content">
+        <form class="form" action="#" onsubmit="save(); return false">
+            <div class="form-head">
+                Employee Payroll Form</div>
+            <div class="row-content">
+                <label clas="label text">Name</label>
+                <input class="input" type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+        </form>
+    </div>
+
 </body>
 
 </html>
+
