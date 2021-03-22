@@ -8,6 +8,8 @@
     <link href="../css/employee_payroll.css" rel="stylesheet" >
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="../pages/employee_payroll.js"></script>
+
 </head>
 
 <body>
@@ -22,12 +24,15 @@
     </header>
 
     <div class="form-content">
-        <form class="form" action="#" onsubmit="save(); return false">
+        <form class="form" action="#" onsubmit="save(event);return false">
             <div class="form-head">Employee Payroll Form</div>
+            
             <div class="row-content">
                 <label clas="label text">Name</label>
                 <input class="input" type="text" id="name" name="name" placeholder="Your Name" required>
+                <error-output class="text-error" for="text"></error-output>
             </div>
+            
             <div class="row-content">
                 <label class="label text" for="profile">Profile Image</label>
                 <div class="profile-radio-content">
@@ -53,6 +58,7 @@
                     </label>
                 </div>
             </div>    
+            
             <div class="row-content row-content-gender">
                 <label class="text" for="gender">Gender</label>
                 <div class="gender">
@@ -66,6 +72,7 @@
                     </div>
                 </div>
             </div>
+            
             <div class="row-content">
                 <label class="text" for="department">Department</label>
                 <div class="row-content-department">
@@ -79,11 +86,13 @@
                     <label class="text" for="engineer">Engineer</label>
                 </div>
             </div>
+            
             <div class="row-content">
                 <label class="text" for="salary">Salary:</label>
                 <input type="range" id="salary" name="salary" min="300000" max="500000" step="100" value="350000">
                 <output class="salary-outputtext">400000</output>
             </div>
+            
             <div class="row-content">
                 <label class="text" for="StartDate">Start Date:</label>
                 <div class="row-content-date">
