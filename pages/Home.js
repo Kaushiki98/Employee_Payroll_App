@@ -1,5 +1,9 @@
-<table id="display" class="table">
-  <tr>
+window.addEventListener("DOMContentLoaded", (event) => {
+  createInnerHtml();
+});
+
+const createInnerHtml = () => {
+  const headerHtml = <tr>
     <th></th>
     <th>Name</th>
     <th>Gender</th>
@@ -8,6 +12,7 @@
     <th>Start Date</th>
     <th>Actions</th>
   </tr>
+  const innerHtml = `${headerHtml}
   <tr>
     <td><img class="profile" alt="" src="../assert/profile-image/Ellipse -2.png">
 
@@ -27,4 +32,7 @@
             src="../asserts/assets/icons/create-black-18dp.svg">
     </td>
   </tr>
-</table>
+  `;
+  
+document.querySelector("#table-display").innerHTML = innerHtml;
+};
