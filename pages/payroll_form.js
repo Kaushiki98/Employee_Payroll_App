@@ -21,7 +21,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     output.textContent = document.querySelector('#salary').value;
   
   });
-
 }); 
 
 const save = () => {
