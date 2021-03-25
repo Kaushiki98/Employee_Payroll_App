@@ -1,232 +1,205 @@
 * {
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-  }
-  
-  body {
-    margin: 0;
-    height: 100px;
-  }
-  
-  .header {
-    padding: 15px 0;
-    background-color: #ffffff;
-  }
-  
-  .header-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: 0px solid green;
-  }
-  
-  .logo-content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: 0px solid green;
-    width: 80%;
-  }
-  
-  .img {
-    width: 55px;
-    margin: 5px;
-  }
-  
-  .logo-content-img {
-    border: solid 0px #42515f;
-  }
-  
-  .emp-text {
-    font: normal normal bold 20px/25px Montserrat;
-    font-family: Monstserrat, sans-serif;
-    letter-spacing: 0;
-    text-transform: capitalize;
-    color: yellowgreen;
-  }
-  
-  .emp-payroll {
-    color: black;
-    font-size: 17px;
-  }
-  
-  .form-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: calc(100% - 80px);
-    background-color: #f7f7f7;
-  }
-  
-  .form {
-    width: 65%;
-    background: white;
-    padding: 44px 50px;
-    box-shadow: 0px 3px 6px grey;
-    border: 1px solid;
-    opacity: 1;
-    border-radius: 8px;
-  }
-  
-  .form-head {
-    font: normal normal bold 24px/37px Roboto;
-    letter-spacing : 0px;
-    text-transform: capitalize;
-    opacity: 1;
-    color: #42515f;
-    padding-bottom: 26px;
-  }
-  
-  .row-content {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 10px;
-    align-items: center;
-  }
-  
-  .label {
-    min-height: 140px;
-  }
-  
-  label {
-    padding: 12px 30px 12px 0;
-    display: inline-block;
-    font-weight: bold;
-  }
-  
-  .text {
-    font-size: 13px;
-    color: black;
-    opacity: 1;
-    font-family: Roboto;
-  }
-  
-  .input {
-    width: 73%;
-    padding: 12px;
-    margin-left: 51px;
-    border-radius: 4px;
-    resize: vertical;
-    border: 1px solid grey;
-  }
-  
-  .profile-radio-content {
-    display: flex;
-    flex-direction: row;
-    margin-top: -94px;
-  }
-  
-  .profile-radio-content label {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
 
-  .profile {
-    width: 40px;
-    margin-left: 12px;
-    border-radius: 5px;
-  }
+body {
+  margin: 0;
+  height: 100px;
+}
 
-  .gender {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  #salary {
-    width: 60%;
-  }
+.header {
+  padding: 15px 0;
+  background-color: #ffffff;
+}
 
-  select {
-    padding: 8px;
-    border-radius: 6px;
-    font: normal normal 16px Roboto;
-    resize: vertical;
-    border: 1px solid;
-    letter-spacing: 0px;
-    color: #8f98a1;
-    background-color: transparent;
-  }
-    
-  .buttonParent {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    margin-top: 30px;
-  }
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid green;
+}
 
-  button {
-    font-size: 12px;
-    padding: 7px 7px;
-    color: #42515f;
-    background: transparent;
-    font-family: "Roboto";
-    border: none;
-    font-weight: 480;
-    width: 140px;
-    opacity: 1;
-    background-color: #e2e2e2;
-    border: 1px solid #707070;
-    letter-spacing: 0px;
-    cursor: pointer;
-  }
+.logo-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 0px solid green;
+  width: 80%;
+}
 
-  .submitButton {
-    border: none;
-    background-color: #f5f5f5;
-    margin-right: 30px;
-  }
-  #salary {
-    width: 60%;
-  }
+.img {
+  width: 55px;
+  margin: 5px;
+}
 
-  .cancelButton {
-    text-decoration: none;
-    text-align: center;
-  }
+.logo-content-img {
+  border: solid 0px #42515f;
+}
 
-  error-output{
-    margin-left: 10px;
-    font-size: 12px;
-    font-style: italic;
-    color: red;
-  }
+.emp-text {
+  font: normal normal bold 20px/25px Montserrat;
+  font-family: Monstserrat, sans-serif;
+  letter-spacing: 0;
+  text-transform: capitalize;
+  color: yellowgreen;
+}
+
+.emp-payroll {
+  color: black;
+  font-size: 17px;
+}
+
+.form-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100% - 80px);
+  background-color: #f7f7f7;
+  padding: 12px;
+}
+
+.form {
+  width: 65%;
+  background: white;
+  padding: 44px 50px;
+  box-shadow: 0px 3px 6px grey;
+  border: 1px solid;
+  opacity: 1;
+  border-radius: 8px;
+}
+
+.form-head {
+  font: normal normal bold 24px/37px Roboto;
+  letter-spacing: 0px;
+  text-transform: capitalize;
+  opacity: 1;
+  color: #42515f;
+  padding-bottom: 26px;
+}
+
+.row-content {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.row-content-gender {
+  width: 100%;
+  margin: 0;
+}
+
+.label {
+  width: 20%;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 16px;
+  color: black;
+  opacity: 1;
+  font-family: Roboto;
+}
+
+.input {
+  width: 81%;
+  padding: 12px;
+  border-radius: 4px;
+  resize: vertical;
+  border: 1px solid grey;
+}
+
+.profile-radio-content {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+.profile-radio-content label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile {
+  width: 40px;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+
+.gender {
+  display: flex;
+  justify-content: space-between;
+}
+
+#salary {
+  width: 70%;
+}
+
+select {
+  padding: 8px;
+  border-radius: 6px;
+  font: normal normal 16px Roboto;
+  resize: vertical;
+  border: 1px solid;
+  letter-spacing: 0px;
+  color: #8f98a1;
+  background-color: transparent;
+}
+
+.buttonParent {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+button {
+  font-size: 14px;
+  padding: 7px 7px;
+  width: 140px;
+  font-family: "Roboto";
+  border-radius: 4px;
+  opacity: 1;
+  background-color: #e2e2e2;
+  border: none;
+  letter-spacing: 0px;
+}
+
+.submitButton {
+  margin-right: 30px;
+}
+
+.cancelButton {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+error-output {
+  font-size: 12px;
+  font-style: italic;
+  color: red;
+}
 
 @media only screen and(max-width: 960px) {
   .cancelButton {
-    margin-left: 0px;
-  }
-  .form{
-      width: 85%;
-      padding: 44px 20px;
+      margin-left: 0px;
   }
 }
-@media only screen and(max-width: 857px) {
-    .form {
+
+@media only screen and(max-width: 600px) {
+  .form {
       margin-top: 10px;
-    }
-    .row{
-      flex-direction: 10px;
-    }
-    .uploadButton{
-      justify-content: flex-start;
-    }
-    .profile-radio-content {
-      flex-flow: wrap;
-    }
-    .submit-reset{
-      width: 100%;
-      display: flex;
-      flex-grow: 1;
-      justify-content: space-between;
-      margin-bottom: 20px;
-    }
-  .submitButton {
-  margin: 0;
   }
-  .buttonParent{
-    flex-direction: column-reverse;
-    align-items: flex-start ;
+  .profile-radio-content {
+      flex-flow: wrap;
   }
 }
